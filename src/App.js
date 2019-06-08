@@ -62,7 +62,7 @@ function AbaEmExibicao(abaAtual){
               </div>
               <div className="col s12 m6 l6">
 
-              <form name="contact" method>
+              <form name="contact" method="post">
               <input type="hidden" name="form-name" value="contact" />
                     <div className="row">
                       <div className="input-field col s6">
