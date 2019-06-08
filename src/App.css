@@ -1,0 +1,51 @@
+body{
+  scroll-behavior: smooth;
+}
+
+.imagemVictorCon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 65px);
+}
+
+.imagemVictor{
+  width: 200px;
+  height: 200px;
+  border-radius:100px;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100vh - 65px);
+}
+
+.info h2{
+  padding: 0;
+  margin: 0;
+}
+
+.info p:first-child{
+  font-weight: bold;
+}
+
+.socialNetwork{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.socialNetwork a{
+  flex:1;
+}
+.socialNetwork a img{
+  flex:1;
+  height: 30px;
+}
+
+.socialNetwork a:first-child img{
+  margin:0 15px 0 0;
+}
