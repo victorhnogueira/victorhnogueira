@@ -62,8 +62,7 @@ function AbaEmExibicao(abaAtual){
               </div>
               <div className="col s12 m6 l6">
 
-              <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-                  <input type="hidden" name="form-name" value="contact" />
+              <form action="POST" data-netlify="true">
                     <div className="row">
                       <div className="input-field col s6">
                         <i className="material-icons prefix">account_circle</i>
