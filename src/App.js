@@ -62,7 +62,7 @@ function AbaEmExibicao(abaAtual){
               </div>
               <div className="col s12 m6 l6">
 
-              <form name="contato" data-netlify="true">
+              <form name="contato" netlify>
                     <div className="row">
                       <div className="input-field col s6">
                         <i className="material-icons prefix">account_circle</i>
