@@ -353,6 +353,17 @@ function App(){
           <div className="container">
             <div className="row">
               <div className="col l6 s12">
+              <form name="contact" netlify>
+  <p>
+    <label>Name <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Email <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
                 <h5 className="white-text">Victor H. Nogueira</h5>
                 <p className="grey-text text-lighten-4">"O sucesso é a soma de pequenos esforços repetidos dia após dia."</p>
               </div>
