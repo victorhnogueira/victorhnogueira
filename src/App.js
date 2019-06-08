@@ -62,7 +62,8 @@ function AbaEmExibicao(abaAtual){
               </div>
               <div className="col s12 m6 l6">
 
-              <form name="contato" netlify>
+              <form name="contact" method>
+              <input type="hidden" name="form-name" value="contact" />
                     <div className="row">
                       <div className="input-field col s6">
                         <i className="material-icons prefix">account_circle</i>
@@ -353,15 +354,6 @@ function App(){
           <div className="container">
             <div className="row">
               <div className="col l6 s12">
-              <form name="contact" method="post">
-              <input type="hidden" name="form-name" value="contact" />
-
-  <input type="text" name="name" />
-  <input type="email" name="email" />
-  <textarea name="message"></textarea>
-  <button type="submit">Send</button>
-
-</form>
                 <h5 className="white-text">Victor H. Nogueira</h5>
                 <p className="grey-text text-lighten-4">"O sucesso é a soma de pequenos esforços repetidos dia após dia."</p>
               </div>
