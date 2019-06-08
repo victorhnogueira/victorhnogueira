@@ -91,10 +91,10 @@ function AbaEmExibicao(abaAtual){
                       </div>
                     </div>
                     <div className="row" style={{display:'flex', alignItems: 'center', justifyContent: 'center'}}>
-                    {/* <button className="btn waves-effect waves-light light-blue darknen-2  " type="submit" name="action">Enviar
+                    <button className="btn waves-effect waves-light light-blue darknen-2  " type="submit" name="action">Enviar
                       <i className="material-icons right">send</i>
-                    </button> */}
-                    <input type="submit" value="enviar"/>
+                    </button>
+                    {/* <input type="submit" value="enviar"/> */}
                     </div>
                   </form>
 
