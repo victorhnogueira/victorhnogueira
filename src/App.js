@@ -353,7 +353,7 @@ function App(){
           <div className="container">
             <div className="row">
               <div className="col l6 s12">
-              <form name="contact" netlify netlify-honeypot="bot-field">
+              <form name="contact" method="post">
               <input type="hidden" name="form-name" value="contact" />
 
   <input type="text" name="name" />
