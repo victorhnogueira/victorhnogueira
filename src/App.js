@@ -359,6 +359,8 @@ function App(){
   <input type="text" name="name" />
   <input type="email" name="email" />
   <textarea name="message"></textarea>
+  <button type="submit">Send</button>
+
 </form>
                 <h5 className="white-text">Victor H. Nogueira</h5>
                 <p className="grey-text text-lighten-4">"O sucesso é a soma de pequenos esforços repetidos dia após dia."</p>
